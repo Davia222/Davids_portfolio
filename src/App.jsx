@@ -13,28 +13,16 @@ import Services from './pages/Services';
 import Works from './pages/works';
 import { Route, Routes } from "react-router-dom"
 
-
-
-
-
 function App() {
-
-  
   return(
   <div>
   <Routes>
-
   <Route path="/" element ={<Home/>}/>
   <Route path="About" element ={<About/>}/>
   <Route path="Contact" element ={<Contact/>}/>
   <Route path="Experiences" element ={<Experiences/>}/>
   <Route path="Services" element ={<Services/>}/>
   <Route path="Works" element ={<Works/>}/>
-
-
-
-
-
     </Routes>
     </div>
   )
