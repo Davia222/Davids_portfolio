@@ -1,6 +1,6 @@
 import React from 'react'
 import "./App.css"
-
+import { Route, Routes } from "react-router-dom"
 import Home from "./component/Home";
 import { useState } from 'react'; // that's how we call it into a particular component
 import mypic from './assets/FB_IMG_16914035241601658.jpg'
@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 import Experiences from './pages/Experiences';
 import Services from './pages/Services';
 import Works from './pages/works';
-import { Route, Routes } from "react-router-dom"
+
 
 function App() {
   return(
