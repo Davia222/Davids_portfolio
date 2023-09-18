@@ -10,7 +10,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Experiences from './pages/Experiences';
 import Services from './pages/Services';
-import Works from './pages/works';
+import Works from './pages/Works';
 import { Route, Routes } from "react-router-dom"
 
 
