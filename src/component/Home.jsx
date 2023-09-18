@@ -5,7 +5,7 @@ import secondPic from '../assets/secondImage.png'
 import { useState } from 'react'
 import leftArrow from "../assets/arrowRight.svg"
 import { Link } from 'react-router-dom'
-import Nav from './nav'
+import Nav from './Nav'
 import "./responsive.css"
 
 function Home({pageManager,setPageManger}) {

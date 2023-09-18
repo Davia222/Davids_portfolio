@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../component/nav'
+import Nav from '../component/Nav'
 
 function Contact() {
   return (
